@@ -35,8 +35,8 @@ const appMenuItems = <MenuItem>[
       link: '/snackbars',
       icon: Icons.smart_toy_outlined),
   MenuItem(
-      title: 'ProgressIndicators',
-      subTitle: 'Generales y controlados',
-      link: '/progress',
-      icon: Icons.refresh_rounded),
+      title: 'Animated container',
+      subTitle: 'Stateful widget animado',
+      link: '/animated',
+      icon: Icons.animation_outlined),
 ];
