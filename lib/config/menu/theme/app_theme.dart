@@ -28,4 +28,8 @@ class AppTheme {
       brightness: isDarkmode ? Brightness.dark : Brightness.light,
       colorSchemeSeed: colorList[selectedColor],
       appBarTheme: const AppBarTheme(centerTitle: false));
+
+  AppTheme copyWitch({int? selectColor, bool? isDarkmode}) => AppTheme(
+      selectedColor: selectColor ?? selectedColor,
+      isDarkmode: isDarkmode ?? this.isDarkmode);
 }
